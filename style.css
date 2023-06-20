@@ -1,0 +1,128 @@
+@font-face {
+    font-family: talhacode;
+    src: url(font/Tinos-Regular.ttf);
+}
+html,body{
+    height: 100vh;
+    margin: 0;
+    font-family: talhacode;
+    font-size: 1rem;
+    font-weight: 10rem;
+    line-height: 1.8em;
+}
+.pimg0{
+    background-image: url(images/img.0.png);
+    min-height: 100%; 
+}
+.pimg1{
+    background-image: url(images/img.1.png);
+    min-height: 400PX; 
+}
+.pimg2{ 
+    background-image: url(images/img.2.png);
+    min-height: 500px; 
+}
+.pimg3{
+    background-image: url(images/img.3.png);
+    min-height: 500px; 
+}
+.pimg4{
+    background-image: url(images/img.4.png);
+    min-height: 600px; 
+}
+.pimg5{
+    background-image: url(images/img.5.jpg);
+    min-height: 600px;
+}
+
+.pimg1{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.pimg2{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 80px 70px; */
+    background-position: center;
+    background-attachment: fixed;
+}
+    .pimg3{
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* padding: 80px 70px; */
+        background-position: center;
+        background-attachment: fixed;
+}
+.pimg4{
+    position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* padding: 80px 70px; */
+        background-position: center;
+        background-attachment: fixed;
+}
+.pimg5{
+    position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* padding: 80px 70px; */
+        background-position: center;
+        background-attachment: fixed;
+}
+.ptext{
+    font-family: talhacode;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: brown;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.textbg{
+    background-color: #313534;
+    padding: 15px;
+    color: #fff;
+}
+.section-light{
+    font-family: talhacode;
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color:#666;
+    letter-spacing: 1.5px;
+}
+
+.section-dark{
+    font-family: talhacode;
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #282e34;
+    color: #ddd;
+    letter-spacing: 1.5px;
+}
+.section-java{
+    font-family: talhacode;
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #666;
+    letter-spacing: 1.5px;
+}
+.section-react{
+    font-family: talhacode;
+    padding: 50px 80px;
+    text-align: center;
+    background-color: #313534;
+    color: #ddd;
+    letter-spacing: 1.5px;
+}
